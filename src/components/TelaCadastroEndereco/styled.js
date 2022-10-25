@@ -10,7 +10,7 @@ export const FormContainer = styled.div`
 
 export const Form = styled.div`
   width: 40vw;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,16 +23,16 @@ export const Input = styled.input`
   margin-left: 16px;
 `;
 
-// export const SendButton = styled.button`
-//   background-color: #ff4400;
-//   border-radius: 8px;
-//   padding: 16px;
-//   width: 200px;
-//   border: none;
-//   color: white;
-//   margin-top: 32px;
-//   cursor: pointer;
-// `;
+export const SendButton = styled.button`
+  background-color: #ff4400;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  border: none;
+  color: white;
+  margin-top: 32px;
+  cursor: pointer;
+`;
 
 export const BackToLoginButton = styled.button`
     background-color: white;
